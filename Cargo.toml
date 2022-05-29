@@ -1,0 +1,15 @@
+[package]
+name = "meth"
+version = "0.1.0"
+edition = "2021"
+authors = ["Will Brickner <wgbrickner@gmail.com>"]
+description = "Keeps computers awake."
+readme = "README.md"
+license = "MIT"
+documentation = "https://docs.rs/meth"
+repository = "https://github.com/wbrickner/meth"
+keywords = ["awake", "sleep", "keep-awake", "mouse", "ui"]
+exclude = ["images/"]
+
+[dependencies]
+mouse-rs  = "0.4.1"
