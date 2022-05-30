@@ -1,6 +1,8 @@
 # [`Meth`](https://crates.io/crates/meth): stay awake!
 
-Keeps computers awake.
+![Graphic shows two cursors moving with pixel-art motion blur](https://github.com/wbrickner/meth/raw/main/images/optimized_header.jpg)
+
+Keeps computers awake!
 
 I often run long simulations, and like to walk away from my computer.
 
@@ -22,6 +24,19 @@ A [`Meth`](https://docs.rs/meth) instance will keep the computer awake until dro
 // `meth` dropped,
 // computer might enter sleep now.
 ```
+
+# OS Support
+## Windows + macOS
+Should just work
+
+## Linux
+Ensure `libxdo-dev` is installed:
+
+- **Ubuntu**: `sudo apt-get install libxdo-dev`
+
+- **Arch**: `pacman -S xdotool`
+
+- **AWS Linux, CentOS, etc.**: `yum install libxdo`
 
 # How it works
 

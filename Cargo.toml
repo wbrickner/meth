@@ -12,4 +12,4 @@ keywords = ["awake", "sleep", "keep-awake", "mouse", "ui"]
 exclude = ["images/"]
 
 [dependencies]
-mouse-rs  = "0.4.1"
+mouse-rs = "0.4"
