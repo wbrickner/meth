@@ -15,7 +15,7 @@ impl Default for Wiggler {
 
 impl Wiggler {
   /// 5px displacement
-  const WIGGLE_DISPLACEMENT: usize = 5;
+  const WIGGLE_DISPLACEMENT: i32 = 5;
 
   ///```
   ///     RIGHT       
